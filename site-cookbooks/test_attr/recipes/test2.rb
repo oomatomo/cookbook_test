@@ -1,5 +1,4 @@
-
-template "/home/vagrant/test.html" do
+template "/home/vagrant/test2.html" do
   source "index.html.erb"
   mode 0644
   variables(

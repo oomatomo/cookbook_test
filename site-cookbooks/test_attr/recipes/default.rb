@@ -11,6 +11,8 @@ template "/home/vagrant/default.html" do
   mode 0644
   variables(
     :def  => node['def'],
-    :test => node['test']
+    :test => node['test'],
+    :foo  => node['foo'],
+    :hoge => node['hoge']
   )
 end
