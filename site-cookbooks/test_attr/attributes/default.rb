@@ -1,5 +1,5 @@
 
-default['test'] = "def_test"
+default['def'] = "def_def"
 default['foo']  = "def_foo"
 default['hoge']  = "def_hoge"
 
