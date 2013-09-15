@@ -1,0 +1,6 @@
+{
+  "run_list":[
+    "recipe[test_attr]",
+    "recipe[test_attr::test]"
+   ]
+}

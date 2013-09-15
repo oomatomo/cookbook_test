@@ -6,3 +6,11 @@
 #
 # All rights reserved - Do Not Redistribute
 #
+template "/home/vagrant/default.html" do
+  source "index.html.erb"
+  mode 0644
+  variables(
+    :def  => node['def'],
+    :test => node['test']
+  )
+end
